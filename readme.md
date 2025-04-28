@@ -1,3 +1,8 @@
+## 📋 Informasi Mahasiswa
+
+| Nama               | NIM        | Mata Kuliah           | Keterangan               |
+|--------------------|------------|-----------------------|---------------------------|
+| Daffa Sadewa Putra | 312310463  | Pemrograman Web 2     | UTS Pemrograman Web 2     |
 
 # Go Chat - Hasil Eksperimen WebSocket 🚀
 
