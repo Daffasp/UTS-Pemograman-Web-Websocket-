@@ -1,74 +1,80 @@
-Go Chat - Hasil Eksperimen WebSocket 🚀
-Go Chat adalah hasil eksperimen dalam membangun aplikasi chat real-time menggunakan WebSocket.
+
+# Go Chat - Hasil Eksperimen WebSocket 🚀
+
+**Go Chat** adalah hasil **eksperimen** dalam membangun aplikasi **chat real-time** menggunakan **WebSocket**.  
 Eksperimen ini dilakukan untuk memahami konsep komunikasi dua arah secara real-time antara client dan server menggunakan Node.js dan WebSocket.
 
-🎯 Tujuan Eksperimen
-Mempelajari dasar penggunaan WebSocket dalam aplikasi web.
+## 🎯 Tujuan Eksperimen
 
-Membangun server WebSocket sederhana menggunakan Node.js.
+- Mempelajari dasar penggunaan WebSocket dalam aplikasi web.
+- Membangun server WebSocket sederhana menggunakan Node.js.
+- Membuat aplikasi chat interaktif yang dapat menangani banyak pengguna secara real-time.
 
-Membuat aplikasi chat interaktif yang dapat menangani banyak pengguna secara real-time.
+## 📚 Deskripsi Project
 
-📚 Deskripsi Project
 Aplikasi ini memungkinkan banyak pengguna untuk:
 
-Bergabung ke ruang obrolan.
-
-Mengirim pesan secara real-time.
-
-Melihat siapa saja yang sedang online.
-
-Menggunakan emoji dalam percakapan.
+- Bergabung ke ruang obrolan.
+- Mengirim pesan secara real-time.
+- Melihat siapa saja yang sedang online.
+- Menggunakan emoji dalam percakapan.
 
 Semua komunikasi dilakukan melalui WebSocket tanpa perlu reload halaman.
 
-🛠️ Teknologi yang Digunakan
-Frontend: HTML5, CSS3, Vanilla JavaScript
+## 🛠️ Teknologi yang Digunakan
 
-Backend: Node.js + ws (WebSocket library)
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Backend**: Node.js + `ws` (WebSocket library)
+- **Library Tambahan**: Font Awesome untuk ikon
 
-Library Tambahan: Font Awesome untuk ikon
+## 🚀 Cara Menjalankan
 
-🚀 Cara Menjalankan
 Clone repository ini:
 
-
+```bash
 git clone https://github.com/username/go-chat.git
 cd go-chat
+```
+
 Install dependency:
 
+```bash
 npm install ws
+```
+
 Jalankan server:
 
+```bash
 node server.js
-Buka file index.html di browser.
+```
 
-Pastikan server berjalan di ws://localhost:8080 sebelum membuka aplikasi.
+Buka file `index.html` di browser.
 
-✨ Fitur
-Chat real-time antar banyak pengguna.
+> Pastikan server berjalan di `ws://localhost:8080` sebelum membuka aplikasi.
 
-Notifikasi pengguna bergabung dan keluar.
+## ✨ Fitur
 
-Menampilkan jumlah pengguna online secara dinamis.
+- Chat real-time antar banyak pengguna.
+- Notifikasi pengguna bergabung dan keluar.
+- Menampilkan jumlah pengguna online secara dinamis.
+- Panel emoji untuk memperkaya pesan.
+- Reconnect otomatis saat koneksi WebSocket terputus.
 
-Panel emoji untuk memperkaya pesan.
+## 📖 Hasil Eksperimen
 
-Reconnect otomatis saat koneksi WebSocket terputus.
-
-📖 Hasil Eksperimen
 ![Alt Text](websocket.png)
-WebSocket memungkinkan komunikasi dua arah tanpa perlu melakukan polling.
 
-Event onopen, onmessage, dan onclose digunakan untuk mengelola komunikasi real-time.
+- WebSocket memungkinkan komunikasi dua arah tanpa perlu melakukan polling.
+- Event `onopen`, `onmessage`, dan `onclose` digunakan untuk mengelola komunikasi real-time.
+- Server menggunakan struktur `Map` untuk mengelola identitas pengguna yang terhubung.
 
-Server menggunakan struktur Map untuk mengelola identitas pengguna yang terhubung.
+## 📜 Catatan
 
-📜 Catatan
-Server WebSocket berjalan pada port 8080.
+- Server WebSocket berjalan pada port 8080.
+- Aplikasi ini tidak menggunakan database, semua data pengguna hanya disimpan sementara di server.
 
-Aplikasi ini tidak menggunakan database, semua data pengguna hanya disimpan sementara di server.
+## 📋 Lisensi
 
-📋 Lisensi
-Project ini dibuat untuk keperluan eksperimen dan pembelajaran. Bebas digunakan dan dimodifikasi.
+Project ini dibuat untuk keperluan **eksperimen** dan **pembelajaran**. Bebas digunakan dan dimodifikasi.
+
 
