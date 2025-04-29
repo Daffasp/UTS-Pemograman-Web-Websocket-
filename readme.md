@@ -5,6 +5,11 @@
 | Daffa Sadewa Putra | 312310463  | Pemrograman Web 2     | UTS Pemrograman Web 2     |
 
 # Go Chat - Hasil Eksperimen WebSocket 🚀
+## 📝 Pendahuluan
+
+Dalam era modern saat ini, kebutuhan akan aplikasi berbasis real-time semakin meningkat, terutama untuk layanan komunikasi seperti chat. Salah satu teknologi utama yang mendukung komunikasi dua arah secara real-time adalah **WebSocket**.  
+Eksperimen ini bertujuan untuk mengeksplorasi bagaimana **WebSocket** dapat digunakan untuk membangun aplikasi chat sederhana yang interaktif menggunakan **Node.js** dan **JavaScript**.  
+Dengan memahami prinsip dasar WebSocket, diharapkan pengembang dapat menciptakan aplikasi web yang lebih responsif dan efisien tanpa bergantung pada teknik polling tradisional.
 
 **Go Chat** adalah hasil **eksperimen** dalam membangun aplikasi **chat real-time** menggunakan **WebSocket**.  
 Eksperimen ini dilakukan untuk memahami konsep komunikasi dua arah secara real-time antara client dan server menggunakan Node.js dan WebSocket.
